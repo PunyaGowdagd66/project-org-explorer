@@ -1,0 +1,206 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4160e6, #b185de);
+    min-height: 100vh;
+    color: #212121;
+}
+.container {
+   max-width: 1000px;
+    margin: 40px auto;
+    background: rgba(18, 17, 17, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(10, 10, 10, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #f0eaea;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background: #2c60b9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #33528d;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #40619b;
+}
+.stats {
+   display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f6fa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(5, 5, 5, 0.1);
+}
+
+.card h2 {
+    margin: 0;
+    color: #c791d3;
+}
+canvas {
+    max-width: 400px;
+    margin: 20px auto;
+}
+.chart-container {
+    display: flex;
+    justify-content: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+.card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+}
+.error-box {
+    background-color: #ffe5e5;
+    color: #b00020;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.dark-mode {
+     background: linear-gradient(135deg, #141e30, #c9d1d9);
+    color: #f1f1f1;
+   
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode select {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #655d5d;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: #faf8f8;
+  margin: 8% auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 8px;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+.repo-details {
+    background: #f9f9f9;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.repo-details {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.4s ease;
+    opacity: 0;
+    background: #eef2ff;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 0 15px;
+}
+
+.repo-details.active {
+     max-height: 500px;
+    opacity: 1;
+    padding: 15px;
+}
+.repo-item {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.repo-item:hover {
+    background: #f0f4ff;
+    transform: translateX(5px);
+}
+h2, h3 {
+    margin-top: 25px;
+    font-weight: 600;
+    color: black;
+}

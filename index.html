@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini OrgExplorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+    <h1><b>welcome to Org Explorer</b></h1>
+
+    <input type="text" id="orgInput" placeholder="Enter organization name">
+    <select id="sortOption">
+    <option value="stars">Sort by Stars</option>
+    <option value="forks">Sort by Forks</option>
+    </select>
+    <button onclick="fetchOrg()">Search</button>
+
+
+    <h3><b>Compare Organizations</b></h3>
+
+<input id="orgInput1" placeholder="Enter first org">
+<input id="orgInput2" placeholder="Enter second org">
+
+<button onclick="compareOrgs()">Compare</button>
+
+<canvas id="compareChart"></canvas>
+
+    <div id="result"></div>
+
+    <div class="chart-container">
+        <canvas id="languageChart"></canvas>
+    </div>
+    </div>
+    <button onclick="toggleTheme()" id="themeBtn">
+    🌙 Dark Mode
+    </button>
+
+    <div id="repoModal" class="modal">
+    <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <div id="modalBody"></div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    </html>
