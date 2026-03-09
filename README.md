@@ -70,7 +70,7 @@ Steps to contribute:
 
 # 👨‍💻 Author
 
-**Punya Gowda G D**
+Punya Gowda G D
 
 GitHub:  
 https://github.com/punyagowdagd66
