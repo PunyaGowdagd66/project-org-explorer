@@ -1,6 +1,6 @@
 # 🌐 Org Explorer
 
-Org Explorer is a simple web application that allows users to explore **GitHub organizations**, view their repositories, contributors, and useful insights using the **GitHub API**.
+Org Explorer is a simple web application that allows users to explore **GitHub organizations**, view their repositories, contributors, and useful insights using the **GitHub API**
 
 This project helps developers quickly analyze organizations and understand their activity, repositories, and contributors.
 
@@ -47,7 +47,7 @@ git clone https://github.com/punyagowdagd66/org-explorer-project.git
 
 Open the project folder and run:
 index.html
-in your browser.
+in your browser
 
 # 📈 Future Improvements
 
