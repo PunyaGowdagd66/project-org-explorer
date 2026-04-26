@@ -4,7 +4,7 @@ Org Explorer is a simple web application that allows users to explore **GitHub o
 
 This project helps developers quickly analyze organizations and understand their activity, repositories, and contributors.
 
-🔗 **Live Demo:**  
+🔗 *Live Demo:*
 https://punyagowdagd66.github.io/project-org-explorer/
 
 # 🚀 Features
