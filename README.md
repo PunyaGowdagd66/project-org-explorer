@@ -59,7 +59,7 @@ in your browser
 
 # 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome..
 
 Steps to contribute:
 
