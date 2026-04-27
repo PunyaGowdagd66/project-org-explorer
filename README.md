@@ -7,7 +7,7 @@ This project helps developers quickly analyze organizations and understand their
 🔗 *Live Demo:*
 https://punyagowdagd66.github.io/project-org-explorer/
 
-# 🚀 Features
+# Features
 
 - 🔍 Search and explore GitHub organizations
 - 📦 View organization repositories
