@@ -24,7 +24,7 @@ https://punyagowdagd66.github.io/project-org-explorer/
 - GitHub API
 - GraphQL
 
-# 📂 Project Structure
+#  Project Structure
 
 project-org-explorer
 │
